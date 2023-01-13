@@ -1,6 +1,25 @@
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 ul{
-    list-style-type:none
+    list-style-type:none;
+}
+h1{
+    text-align: center;
+}
+.header{
+    justify-content: center;
+    display: flex;
+}
+#facebook,#instagram,#github,#email,#direccion,#telefono{
+    display: none;
+}
+button{
+    border: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

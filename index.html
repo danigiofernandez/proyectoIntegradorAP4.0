@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum - Argentina Programa 4.0</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>
-            Leroy Walters
-        </h1>
-        <img src="./img/38.jpg" alt="foto-cv">
-        <nav>
-            
-        </nav>
+        <h1>Leroy Walters</h1>
+      <div class="header">
+        <img src="./img/38.jpg" alt="foto-cv" />
+      </div>
+      <br>
     </header>
     <div>
-        <h2>
-            Experiencias laborales:
-
-        </h2>
-        <ul>
-            <li>
-                www.facebook.com/leroywalters
-            </li>
-            <li>
-                www.instagram.com/leroywalters
-            </li>
-            <li>
-                www.github.com/leroywalters
-            </li>
-        </ul>
+      <h2>Experiencias laborales:</h2>
     </div>
     <footer>
-        <h3>Cómo contactarme:</h3>
-        <ul id="ul-data">
-            <li><i class="fa-solid fa-envelope"></i>  leroy.walters@example.com</li>
-            <li><i class="fa-solid fa-house"></i>  32 Walnut Hill Ln</li>
-            <li><i class="fa-solid fa-phone"></i>  (523) 841-2799</li>
+      <h3>Cómo contactarme:</h3>
+      <nav>
+        <ul>
+            <li>
+                <button id="buttonFace"><i class="fa-brands fa-facebook"></i></button>
+                <label id="facebook">www.facebook.com/leroywalters</label>
+            </li>
+            <br>
+            <li>
+                <button id="buttonInsta"><i class="fa-brands fa-instagram"></i></button>
+                <label id="instagram">www.instagram.com/leroywalters</label>
+            </li>
+            <br>
+            <li>
+                <button id="buttonGit"><i class="fa-brands fa-github"></i></button>
+                <label id="github">www.github.com/leroywalters</label>
+            </li>
         </ul>
+        <ul>
+            <li>
+                <button id="buttonEmail"><i class="fa-solid fa-envelope"></i></button>
+                <label id="email">leroy.walters@example.com</label>
+            </li>
+            <br>
+            <li>
+                <button id="buttonDire"><i class="fa-solid fa-house"></i></button>
+                <label id="direccion">32 Walnut Hill Ln</label>
+            </li>
+            <br>
+            <li>
+                <button id="buttonTel" ><i class="fa-solid fa-phone"></i></button>
+                <label id="telefono">(523) 841-2799</label>
+            </li>
+          </ul>
+    </nav>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+      integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/funciones.js"></script>
+    <script src="./js/funcionesDatos.js"></script>
+  </body>
 </html>
